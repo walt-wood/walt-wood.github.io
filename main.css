@@ -39,7 +39,7 @@ nav {
 
 @media screen and (max-width: 400px) {
     body {
-        font-size: 14px;
+        font-size: 12px;
     }
     header {
         height: 40px;
