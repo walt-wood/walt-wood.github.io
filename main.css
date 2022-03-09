@@ -16,5 +16,41 @@ nav {
 #wrapper {
     background-color: white;
 }
+#imageIcon {
+    height: 55px;
+}
 
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+  
+    header {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    nav {
+        padding-right: 0%;
+    }
+    #imageIcon {
+        height: 45px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        font-size: 14px;
+    }
+    header {
+        height: 40px;
+        line-height: 40px;
+    }
+
+    nav {
+        padding-right: 0%;
+    }
+    #imageIcon {
+        height: 35px;
+    }
+}
   
